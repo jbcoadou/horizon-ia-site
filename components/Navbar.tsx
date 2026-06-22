@@ -58,7 +58,7 @@ export function Navbar() {
         <div className="hidden md:block">
           <Button asChild size="sm">
             <a href={SITE.calendly} target="_blank" rel="noreferrer">
-              Réserver mon diagnostic
+              Réserver mon audit gratuit
             </a>
           </Button>
         </div>
@@ -87,7 +87,7 @@ export function Navbar() {
             ))}
             <Button asChild size="md" className="mt-3 w-full">
               <a href={SITE.calendly} target="_blank" rel="noreferrer">
-                Réserver mon diagnostic
+                Réserver mon audit gratuit
               </a>
             </Button>
           </nav>

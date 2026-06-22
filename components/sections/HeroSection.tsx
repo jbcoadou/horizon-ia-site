@@ -53,18 +53,25 @@ export function HeroSection() {
         <motion.div {...reveal(0.24)} className="mt-10 flex flex-col gap-3 sm:flex-row sm:items-center">
           <Button asChild size="lg">
             <a href={SITE.calendly} target="_blank" rel="noreferrer">
-              Réserver mon diagnostic 45 min
+              Réserver mon audit IA gratuit
               <ArrowRight className="h-4 w-4" />
             </a>
           </Button>
           <Button asChild variant="ghost" size="lg">
-            <a href="#methode">Voir la méthode H·O·R·I·Z</a>
+            <a href="#audit">Voir ce qu'on installe</a>
           </Button>
         </motion.div>
 
         <motion.p
-          {...reveal(0.32)}
-          className="mt-12 max-w-2xl text-sm leading-relaxed text-bone-400"
+          {...reveal(0.3)}
+          className="mt-6 max-w-2xl text-[15px] leading-relaxed text-bone-300"
+        >
+          Dans tous les cas, vous repartez avec un plan d'action concret. Gratuit, sans engagement.
+        </motion.p>
+
+        <motion.p
+          {...reveal(0.36)}
+          className="mt-8 max-w-2xl text-sm leading-relaxed text-bone-400"
         >
           {HERO_PROOF}
         </motion.p>

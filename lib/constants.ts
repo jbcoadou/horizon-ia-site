@@ -191,6 +191,62 @@ export const OFFERS: Offer[] = [
   },
 ];
 
+export const AUTOMATIONS: { title: string; body: string }[] = [
+  {
+    title: "Prospection LinkedIn",
+    body: "Votre équipe IA repère les bons prospects, rédige des messages personnalisés et remplit votre agenda. Vous validez, elle envoie.",
+  },
+  {
+    title: "Création de contenu",
+    body: "Posts, emails et scripts produits en continu dans votre voix, à partir de vos idées. Vous restez présent sans y passer vos soirées.",
+  },
+  {
+    title: "Relances et CRM",
+    body: "Chaque appel résumé, chaque relance préparée, votre pipeline tenu à jour tout seul. Plus aucun prospect qui passe à la trappe.",
+  },
+  {
+    title: "Devis et propositions",
+    body: "Un brief vocal, et votre proposition commerciale chiffrée ressort prête à envoyer. Ce qui prenait deux heures prend cinq minutes.",
+  },
+  {
+    title: "Reporting et analyse",
+    body: "Vos chiffres, vos réunions et vos retours clients synthétisés chaque semaine. Vous pilotez sur des faits, pas au ressenti.",
+  },
+  {
+    title: "Back-office",
+    body: "Administratif, suivi, tâches répétitives confiés à des agents qui tournent 24/7, y compris quand vous dormez.",
+  },
+];
+
+export const AUDIT = {
+  eyebrow: "L'audit IA gratuit",
+  title:
+    "Réservez votre audit IA. Dans tous les cas, vous repartez avec un plan d'action.",
+  subtitle:
+    "30 à 45 minutes avec un expert Horizon IA. On regarde votre entreprise, on identifie où l'IA vous fait gagner le plus, et on vous remet un plan concret. Gratuit, sans engagement.",
+  deliverables: [
+    {
+      title: "La cartographie de vos tâches automatisables",
+      body: "On repère précisément où vous perdez du temps et de l'argent aujourd'hui.",
+    },
+    {
+      title: "Vos 3 automatisations IA prioritaires",
+      body: "Celles qui débloquent le plus de valeur pour votre situation, classées par impact.",
+    },
+    {
+      title: "Un plan d'action concret et chiffré",
+      body: "Les étapes, l'ordre, le résultat attendu. Vous repartez avec, même si on ne travaille pas ensemble.",
+    },
+    {
+      title: "Une réponse franche",
+      body: "On vous dit honnêtement si on peut vous aider, ou non. Aucune vente forcée.",
+    },
+  ],
+  reassurance:
+    "On n'a aucun intérêt à vous vendre quoi que ce soit si on ne peut pas vous aider. Notre réputation tient à une seule chose : les résultats de nos clients.",
+  cta: "Réserver mon audit IA gratuit",
+};
+
 export const FAQS: { question: string; answer: string }[] = [
   {
     question: "Pourquoi Claude et pas ChatGPT ou Gemini ?",
