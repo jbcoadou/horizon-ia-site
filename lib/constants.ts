@@ -9,7 +9,7 @@ import {
 
 export const SITE = {
   name: "Horizon IA",
-  url: "https://horizoniaconsulting.com",
+  url: "https://www.horizon-ia.io",
   legalName: "Horizon IA SLU",
   nrt: "NRT L-720522-U",
   address: "AD500 Andorra la Vella",
